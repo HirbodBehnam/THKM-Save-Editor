@@ -109,6 +109,7 @@
             this.BTN_Source.TabIndex = 4;
             this.BTN_Source.Text = "Source";
             this.BTN_Source.UseVisualStyleBackColor = true;
+            this.BTN_Source.Click += new System.EventHandler(this.BTN_Source_Click);
             // 
             // GroupBox_Main
             // 
@@ -482,6 +483,7 @@
             this.BTN_About.TabIndex = 3;
             this.BTN_About.Text = "About";
             this.BTN_About.UseVisualStyleBackColor = true;
+            this.BTN_About.Click += new System.EventHandler(this.BTN_About_Click);
             // 
             // BTN_ChangeDiff
             // 

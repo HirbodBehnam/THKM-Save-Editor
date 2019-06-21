@@ -178,5 +178,15 @@ namespace THKM_Save_Editor
             Level_Slowmotion.Checked = _save.LevelData[_selectedLevel - 1].IsChallengeSlowMoComplete;
             Level_Time_Star.Checked = _save.LevelData[_selectedLevel - 1].IsChallengeTimeComplete;
         }
+
+        private void BTN_About_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Created by Hirbod Behnam");
+        }
+
+        private void BTN_Source_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/HirbodBehnam/THKM-Save-Editor");
+        }
     }
 }
